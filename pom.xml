@@ -16,9 +16,6 @@
 
     <properties>
         <!-- spring 生态 -->
-        <spring-boot-admin.version>2.2.9</spring-boot-admin.version>
-        <spring.cloud.version>Greenwich.SR6</spring.cloud.version>
-        <spring.cloud.alibaba.version>2.1.2.RELEASE</spring.cloud.alibaba.version>
         <swagger.version>2.9.2</swagger.version>
         <dubbo.version>2.7.6</dubbo.version>
         <java.version>1.8</java.version>
@@ -32,7 +29,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <!-- dubbo-->
-
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
@@ -54,31 +50,6 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>5.2.9.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>dubbo</artifactId>
-            <version>2.6.6</version>
-        </dependency>
-
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>5.4.4</version>
         </dependency>
 
     </dependencies>

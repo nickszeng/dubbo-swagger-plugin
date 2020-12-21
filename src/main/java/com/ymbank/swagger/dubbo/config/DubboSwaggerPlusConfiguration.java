@@ -1,7 +1,7 @@
 package com.ymbank.swagger.dubbo.config;
 
 import com.fasterxml.classmate.TypeResolver;
-import com.ymbank.swagger.dubbo.EnableSwaggerDubboPlugin;
+import com.ymbank.swagger.dubbo.EnableDubboSwaggerPlugin;
 import com.ymbank.swagger.dubbo.extend.DubboRequestHandlerProvider;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
@@ -28,13 +28,13 @@ import java.util.Map;
  * @since 2020/12/07
  */
 @Configuration
-public class SwaggerDubboPlusConfiguration implements ImportBeanDefinitionRegistrar {
+public class DubboSwaggerPlusConfiguration implements ImportBeanDefinitionRegistrar {
 
     private String apiScanPackage;
 
     @Override
     public void registerBeanDefinitions(AnnotationMetadata metadata, BeanDefinitionRegistry registry) {
-        Map<String, Object> attributes = metadata.getAnnotationAttributes(EnableSwaggerDubboPlugin.class.getName());
+        Map<String, Object> attributes = metadata.getAnnotationAttributes(EnableDubboSwaggerPlugin.class.getName());
         this.apiScanPackage = (String) attributes.get("apiScanPackage");
         AbstractBeanDefinition beanDefinition =
                 BeanDefinitionBuilder.rootBeanDefinition(SwaggerDubboConfigurationBean.class)

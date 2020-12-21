@@ -1,6 +1,6 @@
 package com.ymbank.swagger.dubbo;
 
-import com.ymbank.swagger.dubbo.config.SwaggerDubboPlusConfiguration;
+import com.ymbank.swagger.dubbo.config.DubboSwaggerPlusConfiguration;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
@@ -16,8 +16,8 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Configuration
-@Import({SwaggerDubboPlusConfiguration.class})
-public @interface EnableSwaggerDubboPlugin {
+@Import({DubboSwaggerPlusConfiguration.class})
+public @interface EnableDubboSwaggerPlugin {
 
     /**
      * dubbo api接口扫描路径

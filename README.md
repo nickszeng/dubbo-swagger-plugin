@@ -35,6 +35,7 @@ public class DubboProviderApplication {
 
 #### 获取swagger-json（可同步到YAPI等其他开源接口平台）
 访问 http://localhost:8081/v2/api-docs?group=dubbo
+案例json如下：
 ```json
 {
     "swagger":"2.0",
@@ -42,9 +43,9 @@ public class DubboProviderApplication {
         "version":"1.0",
         "title":"Dubbo-API说明文档",
         "contact":{
-            "name":"ymbank",
-            "url":"https://www.ymbank.com/",
-            "email":"architecture@ymbank.com"
+            "name":"xxx",
+            "url":"https://www.xxx.com/",
+            "email":""
         }
     },
     "host":"localhost:8081",

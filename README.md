@@ -225,3 +225,5 @@ public class DubboProviderApplication {
     }
 }
 ```
+[演示图片](http://note.youdao.com/noteshare?id=a2c0e58b86161176a0bf9629767fbc06&sub=34)
+

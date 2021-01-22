@@ -225,5 +225,5 @@ public class DubboProviderApplication {
     }
 }
 ```
-[演示图片](https://github.com/nickszeng/nickszeng-public-doc/blob/master/swagger-dubbo-demo.png)
+[演示图片](https://raw.githubusercontent.com/nickszeng/nickszeng-public-doc/master/swagger-dubbo-demo.png)
 

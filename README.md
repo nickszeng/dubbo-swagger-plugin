@@ -75,5 +75,7 @@ public class DubboProviderApplication {
 
 可同步到YAPI等其他开源接口平台
 访问 http://localhost:8081/v2/api-docs?group=dubbo
+
+#### 演示效果如下
 ![演示图片](https://raw.githubusercontent.com/nickszeng/nickszeng-public-doc/master/swagger-dubbo-demo.png)
 

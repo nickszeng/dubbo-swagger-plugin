@@ -1,4 +1,4 @@
-package com.ymbank.swagger.dubbo;
+package com.me.swagger.dubbo;
 
 /**
  * @author zenglingjun

@@ -1,6 +1,6 @@
-package com.ymbank.swagger.dubbo;
+package com.me.swagger.dubbo;
 
-import com.ymbank.swagger.dubbo.config.DubboSwaggerPlusConfiguration;
+import com.me.swagger.dubbo.config.DubboSwaggerPlusConfiguration;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 

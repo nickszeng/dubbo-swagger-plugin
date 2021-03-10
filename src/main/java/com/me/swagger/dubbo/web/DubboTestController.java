@@ -1,7 +1,7 @@
-package com.ymbank.swagger.dubbo.web;
+package com.me.swagger.dubbo.web;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ymbank.swagger.dubbo.extend.DubboRequestHandlerProvider;
+import com.me.swagger.dubbo.extend.DubboRequestHandlerProvider;
 import org.apache.dubbo.config.ReferenceConfig;
 import org.apache.dubbo.rpc.service.GenericService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import springfox.documentation.annotations.ApiIgnore;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
-import static com.ymbank.swagger.dubbo.Constants.DUBBO_TEST_ROOT_PATH_SPEL;
+import static com.me.swagger.dubbo.Constants.DUBBO_TEST_ROOT_PATH_SPEL;
 
 /**
  * dubbo rest测试接口

@@ -1,8 +1,8 @@
-package com.ymbank.swagger.dubbo.config;
+package com.me.swagger.dubbo.config;
 
 import com.fasterxml.classmate.TypeResolver;
-import com.ymbank.swagger.dubbo.EnableDubboSwaggerPlugin;
-import com.ymbank.swagger.dubbo.extend.DubboRequestHandlerProvider;
+import com.me.swagger.dubbo.extend.DubboRequestHandlerProvider;
+import com.me.swagger.dubbo.EnableDubboSwaggerPlugin;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
@@ -44,7 +44,7 @@ public class DubboSwaggerPlusConfiguration implements ImportBeanDefinitionRegist
 
     @Configuration
     @ComponentScan(basePackages = {
-            "com.ymbank.swagger.dubbo.web"
+            "com.me.swagger.dubbo.web"
     })
     static class SwaggerDubboConfigurationBean {
 
@@ -79,7 +79,7 @@ public class DubboSwaggerPlusConfiguration implements ImportBeanDefinitionRegist
                     //页面标题
                     .title("Dubbo-API说明文档")
                     //创建人
-                    .contact(new Contact("ymbank", "https://www.ymbank.com/", "architecture@ymbank.com"))
+                    .contact(new Contact("me", "https://www.xxx.com/", "xxx@xx.com"))
                     //版本号
                     .version("1.0")
                     .build();

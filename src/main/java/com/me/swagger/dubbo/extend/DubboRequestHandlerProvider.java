@@ -1,8 +1,7 @@
-package com.ymbank.swagger.dubbo.extend;
+package com.me.swagger.dubbo.extend;
 
 import com.fasterxml.classmate.ResolvedType;
 import com.fasterxml.classmate.TypeResolver;
-import com.fasterxml.classmate.members.RawField;
 import com.google.common.collect.Sets;
 import org.apache.dubbo.config.ServiceConfigBase;
 import org.apache.dubbo.rpc.model.ApplicationModel;
@@ -25,7 +24,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.*;
 
-import static com.ymbank.swagger.dubbo.Constants.DUBBO_TEST_ROOT_PATH_SPEL;
+import static com.me.swagger.dubbo.Constants.DUBBO_TEST_ROOT_PATH_SPEL;
 
 /**
  * dubbo RequestHandler 提供者
